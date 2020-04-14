@@ -8,7 +8,6 @@ function coinFlip() {
 				return Math.floor((Math.random() * 2) + 1)
 		}
 		var result = flip();
-		var result = 1;
 		if (result === 1){
 			document.getElementById("coin").src="images/heads.png";
 			document.getElementById("maski").innerHTML = "са задължителни!";
